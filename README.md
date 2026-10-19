@@ -1,8 +1,16 @@
 # typing-tracker
 
-A private local coding-time tracker for Vim and Emacs on this machine. The editors send a heartbeat when you open a file, type, or save. A local server stores the metadata in SQLite. You read the totals in the terminal.
+A simple, private, local coding-time tracker. One Go binary, like WakaTime. Supports Vim and Emacs.
 
 Nothing is uploaded. File contents and keystrokes are never sent.
+
+Reading status on terminal.
+
+## OS-support
+
+- Linux
+- macOS: not supported now
+- Windows: not supported now
 
 ## What is stored
 
